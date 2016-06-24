@@ -1,0 +1,31 @@
+{
+  "name": "svg-sprites",
+  "version": "0.0.1",
+  "description": "Svg sprites",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 8000",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smadey/svg-sprites.git"
+  },
+  "keywords": [
+    "svg",
+    "sprites"
+  ],
+  "author": "Smadey <smadey@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smadey/svg-sprites/issues"
+  },
+  "homepage": "https://github.com/smadey/svg-sprites#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-svgmin": "^1.2.2",
+    "gulp-svgstore": "^6.0.0",
+    "http-server": "^0.9.0"
+  }
+}
